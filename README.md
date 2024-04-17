@@ -1,10 +1,29 @@
-# Credit Card Fraud Detection using AutoEncoder
+# Credit Card Fraud Detection using AutoEncoders
 
-Developed and implemented an AutoEncoder model using Keras to identify fraudulent transactions in a highly unbalanced credit card dataset sourced from Kaggle.
-Conducted comprehensive exploratory data analysis to visualize the imbalance between normal and fraudulent transactions and examine summary statistics of transaction data.
-Engineered features and prepared data by normalizing transaction amounts and segregating dataset into training and testing sets to optimize model training.
-Utilized advanced visualization techniques to explore transaction amount data and detect patterns typical to fraudulent activities.
-Implemented a method to calculate reconstruction error for model validation, establishing a threshold to differentiate between normal and fraudulent transactions effectively.
-Evaluated model performance using a confusion matrix on the testing set, achieving a detection rate of approximately 60% for fraudulent transactions while maintaining a manageable false positive rate.
-Discussed the real-world application and challenges of deploying fraud detection systems, including regulatory, privacy concerns, and the necessity of integrating multiple detection systems.
-Shared insights on the role of data science in enhancing organizational fraud detection capabilities, emphasizing collaborative efforts within team environments.
+This repository contains the implementation and evaluation of an AutoEncoder neural network model for the purpose of detecting fraudulent transactions on credit card data.
+
+## Model Evaluation and Results
+
+The following visuals demonstrate the analysis and performance of the AutoEncoder model:
+
+### Confusion Matrix
+![Confusion Matrix](confusion%20matrix.png)
+
+### Reconstruction Error
+![Reconstruction Error](reconstuction%20error.png)
+
+### Recall vs Precision
+![Recall vs Precision](recall%20vs%20precision.png)
+
+### ROC Curve
+![ROC Curve](ROC%20Curve.png)
+
+### Model Loss During Training
+![Model Loss](loss.png)
+
+### Precision and Recall for Different Threshold Values
+![Precision and Recall for Different Threshold Values](precision%20and%20recall.png)
+
+---
+
+Please explore the notebooks and scripts provided in this repository to understand the data preparation, model building, and evaluation processes.
